@@ -1,11 +1,10 @@
-import { useEffect } from "react"
-import { useState } from "react"
+
 import {skill} from "./utils/skill"
 import './Styles/Skills.css'
 import Marquee from "react-fast-marquee"
 
 const Skills=()=>{
-const[help,setHelp]=useState([])
+
 return(
     <div className="box1" id="skill">
     <h2 className="kill">SKILLS</h2>
@@ -22,7 +21,7 @@ return(
           >
         {skill.map((item)=>(
             <div className="box2">
-                <img src={item.src} width="100px"/>
+                <img src={item.src} width="100px" alt="logo"/>
                 <h3>{item.label}</h3>
                 </div>
 

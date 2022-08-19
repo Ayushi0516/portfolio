@@ -1,8 +1,8 @@
 // import { Facebook, Instagram, LinkedIn, MenuBook, Pinterest, SettingsPowerRounded, Twitter } from '@material-ui/icons'
-import { FaFacebookSquare,FaInstagramSquare,FaGithub,FaLinkedin,FaLaptopCode } from 'react-icons/fa';
-import React, { useState } from 'react'
+import { FaFacebookSquare,FaInstagramSquare,FaGithub,FaLinkedin } from 'react-icons/fa';
+import React from 'react'
  import './Styles/Main.css'
-// import './styles/Main.scss'
+
  import slackdp from './assests/slackdp.jpeg'
  import Typical from "react-typical";
 
