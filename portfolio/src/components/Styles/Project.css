@@ -1,0 +1,77 @@
+.project-box{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    align-items: center;
+    gap: 60px;
+    height: 450px;
+   
+   
+}
+.purple{
+    background:linear-gradient(45deg,rgba(101, 11, 228, 0.77),rgba(244, 67, 2, 0.562));
+    margin-top: -40px;
+}
+.kill{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 40px;
+}
+.pro{
+    width: 400px;
+}
+.ject{
+    width: 400px;
+    /* height: 400px; */
+}
+.project-box1{
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.12);
+    background-color:darkgray;
+}
+.project-box1:hover{
+    transform: scale(1.15);
+}
+.project-box2{
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.12);
+    background-color:darkgray;
+   
+}
+.project-box2:hover{
+    transform: scale(1.15);
+}
+
+
+Button{
+    padding: 15px 40px;
+    margin-top: 2rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    background: linear-gradient(25deg,rgba(1, 60, 210, 0.753),rgb(255, 72, 6));
+    color: #fff;
+    border: 1px solid #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    border-bottom: none;
+}
+@media (max-width:1100px) {
+    .project-box {
+        flex-direction: row;
+        margin: 2.5rem;
+        width: 20px;
+    }
+
+    .project-box h1 {
+
+        font-size: 25px;
+        margin-bottom: 0rem;
+    }
+
+    .project-box p {
+        font-size: 26px;
+        margin-block: 25px;
+        padding: 25px;
+        font-weight: normal;
+    }
+}
