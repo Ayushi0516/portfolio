@@ -13,16 +13,16 @@ Flow:
 -   They can click on aboutMe section to know about me 
 -   skill section will show my skillsets
 -    They can view my projects fully responsive
--   Finally, the can contact me .
+-   Finally, they can contact me .
 
 To run on local system run  On your terminal the following commands:
 
 
-git clone <https link>
-cd portfolio
-install dependencies
-npm i
-npm start
+- git clone <https link>
+- cd portfolio
+ - install dependencies
+- npm i
+- npm start
 
 ### Deployement ###
 
