@@ -24,8 +24,9 @@ const Project=()=>{
                     <p>Himalaya offers a wide range of clinically-studied herbal supplements, toothpaste and personal care products.It  is trusted for head to heel range of herbal products.Shop our products online, see product prices</p>
                     <p>TECH STACK</p>
                     <p><FaReact color="darkblue" size="30px"/> <SiRedux color="darkblue" size="30px"/> <SiJavascript color="darkblue" size="30px"/> <SiChakraui color="darkblue" size="30px"/></p>
-                   <button  href="https://himalayacs8853.netlify.app" >Live</button>
-                   <button  href="https://github.com/a11yus/HimalayaUSA">Github</button>
+                    <a href="https://himalayacs8853.netlify.app" ><button>Live</button></a>
+                    <a href="https://github.com/a11yus/HimalayaUSA" ><button>Github</button></a>
+                  
                    </div>
                 </div>
               
@@ -47,7 +48,7 @@ const Project=()=>{
                    <p>TECH STACK </p>
                    <p className="react"><AiFillHtml5 size="30px" color="darkblue"/>  <SiCss3  color="darkblue"  size="30px"/> <SiJavascript  color="darkblue"  size="30px"/> <SiNetlify  color="darkblue" size="30px"/></p>
 
-                  <a  href="https://kapilkumar7.github.io/pluralsightclone" ><button>Live</button></a> 
+                  <a  href="https://pluralsiteclonechillpill.netlify.app/" ><button>Live</button></a> 
                   <a href="https://github.com/KapilKumar7/pluralsightclone" > <button >Github</button></a>
                     </div>
                    
@@ -63,8 +64,9 @@ const Project=()=>{
                     <p>Orbitz.com is a travel fare aggregator website and travel metasearch engine. The website is owned by Orbitz Worldwide, Inc., a subsidiary of Expedia Group. All Fares in One Place.</p>
                     <p>TECH STACK</p>
                     <p><AiFillHtml5 size="30px" color="darkblue"/>  <SiCss3  color="darkblue"  size="30px"/> <SiJavascript  color="darkblue"  size="30px"/> <SiNetlify  color="darkblue" size="30px"/></p>
-                   <button   href="http://our-orbitz-clone.netlify.app" >Live</button>
-                   <button     href="https://github.com/jitesh-95/Orbitz">Github</button>
+                   <a href="http://our-orbitz-clone.netlify.app"><button>Live</button></a> 
+                   <a href="https://github.com/jitesh-95/Orbitz"><button>Github</button></a> 
+                 
                    </div>
                 </div>
 
