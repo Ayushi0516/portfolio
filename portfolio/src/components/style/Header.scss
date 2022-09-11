@@ -17,44 +17,37 @@
 
 ul {
     display: flex;
-}
-  ul li {
+   li {
        list-style: none;
        margin: 1rem;
-   }
 
-      ul li .black {
+       .black {
            text-decoration: none;
            text-transform: uppercase;
            color: #000;
-           font-weight: bold;
-       }
-           .black:hover {
+           font-weight: bolder;
+
+           &:hover {
                border-bottom: 3px solid black;
            }
-       
-   
-
+       }
+   }
+}
 
 .changer {
     display: flex;
     margin-right: 1.555rem;
-}
-    .changer.menu {
+    .menu {
         cursor: pointer;
         margin-right: 1rem;
         display: none;
     }
-
-   .closed .close{
+}
+.closed .close{
     display: none;
-} 
+}
 
-
-
-@media (max-width:850px)
-/* @media screen and (min-width:421 ) and (max-width:765) */
-{
+@media (max-width:850px) {
     .header {
         justify-content: space-between;
     }
@@ -79,37 +72,33 @@ ul {
         align-items: center;
         flex-direction: column;
         margin-top: 1rem;
-    }
-       ul li {
+       li {
            margin-block: 2rem;
-       }
-          ul li .black {
+           .black {
                font-size: 20px;
                color: rgb(40, 36, 36);
                font-weight: bolder;
            }
-       
+       }
     }
 
 
-    /* .changer {} */
-    .changer .menu {
+    .changer {
+        .menu {
             display: block;
         }
-    
+    }
 
-      .closed .close{
-        display: flex;
-        cursor: pointer;
-    }  
-    
+    .closed .close{
+        display: block;
+    }
 
     .header__logo {
         margin-left: .445rem;
     }
 
 
-
+}
 
 @media (max-width:360px) {
     ul {
@@ -117,21 +106,20 @@ ul {
         align-items: center;
         flex-direction: column;
         margin-top: 1rem;
-    }
-      ul li {
+       li {
            margin-block: 2rem;
-       }
-          ul li .black {
+           .black {
                font-size: 20px;
                color: rgb(40, 36, 36);
                font-weight: bolder;
            }
-       
-        }
+       }
+    }
 
-    /* .changer {} */
-    .changer .menu {
+    .changer {
+        .menu {
             display: block;
             margin-right: 0;
         }
-    
+    }
+}

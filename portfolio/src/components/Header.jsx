@@ -1,7 +1,8 @@
 
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
- import './Styles/Header.css'
+//  import './Styles/Header.css'
+import "./style/Header.scss"
 
 import CloseIcon from '@mui/icons-material/Close';
 import DensityMediumOutlinedIcon from '@mui/icons-material/DensityMediumOutlined';
@@ -30,27 +31,27 @@ const Header = () => {
                         <p> <CloseIcon className="close" onClick={showMenu}/></p>
                     </div>
                     <li>
-                        <Link to='/'>Home</Link>
+                        <Link className="black" to='/'>Home</Link>
                     </li>
                     <li >
                      
-                        <a href="#aboutme">About Me</a>
+                     <a className="black"  href="#aboutme">About Me</a> 
                     </li>
                     <li>
                         
-                        <a href="#skill">Skills</a>
+                        <a className="black"  href="#skill">Skills</a>
                     </li>
                     <li>
                        
-                        <a href="#project">Project</a>
+                        <a className="black" href="#project">Project</a>
                     </li>
-                   <li>
+                   {/* <li>
                  
-                   <a href="#test">Testimonial</a>
-                   </li>
+                   <a  className="black" href="#test">Testimonial</a>
+                   </li> */}
                     <li>
                         
-                        <a href="#contact">Contacts</a>
+                        <a className="black" href="#contact">Contacts</a>
                     </li>
                 </ul>
             </nav>

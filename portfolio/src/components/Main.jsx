@@ -1,7 +1,8 @@
 // import { Facebook, Instagram, LinkedIn, MenuBook, Pinterest, SettingsPowerRounded, Twitter } from '@material-ui/icons'
 import { FaFacebookSquare,FaInstagramSquare,FaGithub,FaLinkedin } from 'react-icons/fa';
 import React from 'react'
- import './Styles/Main.css'
+//  import './Styles/Main.css'
+ import "./style/Main.scss"
 
  import slackdp from './assests/slackdp.jpeg'
  import Typical from "react-typical";
@@ -18,7 +19,7 @@ const Main = () => {
                         
                             <p className='hey'>Hey There !</p>
                             <h1>I am Ayushi Gupta</h1>
-                            <p>
+                            <p className="typical">
                             <Typical
                 loop={Infinity}
                 steps={[
@@ -34,7 +35,7 @@ const Main = () => {
                        
                           
                              <div className="icons">
-                        <a href="https://www.facebook.com/arushi.gupta.334491">
+                        <a className="red" href="https://www.facebook.com/arushi.gupta.334491">
                     <i className="icon"><FaFacebookSquare size={"40px"} /></i>
                    </a>
                    <a href="https://www.instagram.com/_arushi_gupta">
