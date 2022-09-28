@@ -26,6 +26,7 @@
     // margin-top: 25px;
     // padding-top: 30px;
     padding-bottom: 20px;
+    padding-top: 20px;
     font-size: 40px;
     color: chocolate;   
 }
@@ -55,11 +56,13 @@
         font-size: 20px;
       
         cursor: pointer;
+     
     }
     .sight{
   width: 100%;
   padding-left: 10px;
   cursor: pointer;
+  background-color:lightgray;
 
         p{
      color: black;
@@ -70,7 +73,23 @@
             color: brown;
             padding-top: 5px;
         }
-    
+        .bg{
+            background-color: lightgray;
+            text-align: center;
+            padding-top: 10px;
+                }
+                .bg:hover{
+                    text-decoration: underline;
+                    color:rebeccapurple ;
+                }
+    .tech{
+        text-decoration: none;
+       
+    }
+    .tech:hover{
+        text-decoration: underline;
+        color:rebeccapurple
+    }
     }
 
    
@@ -105,12 +124,18 @@
 }
 
 @media (max-width:850px){
+    
+    .kill{
+        font-size: 15px;
+        color: blue;
+    }
 .project-box{
 
 display: flex;
 flex-wrap: wrap;
 flex-direction: column;
 gap: 20px;
+
 .project-box1,.project-box2,.project-box3
 {
     flex: 100%;
@@ -155,9 +180,13 @@ gap: 20px;
 
 @media (max-width:360px)
 {
+    .kill{
+        font-size: 15px;
+    }
     .project-box{
     display: flex;
     flex-direction: column;
     flex: 100%;
 }
+
 }

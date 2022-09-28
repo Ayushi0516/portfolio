@@ -12,7 +12,7 @@ return(
     <h2 className="kill">SKILLS</h2>
     <h3>FrontEnd/Backend</h3>
     <div className="box3" >
-       
+      
          <Marquee 
          gradient={false} 
          speed={80} 
@@ -21,7 +21,7 @@ return(
          delay={0}
          play={true} 
          direction="left"
-          >
+          > 
         {skill.map((item)=>(
             <div className="box2">
                 <img src={item.src} width="100px" alt="logo"/>
