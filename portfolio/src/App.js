@@ -22,9 +22,10 @@ function App() {
     <Main/>
     <Section/>
     <Skills/>
-    {/* <Stat/> */}
+  
     <Project/>
     <Github/>
+    <Stat/>
     <Contact/>
 
     </div>

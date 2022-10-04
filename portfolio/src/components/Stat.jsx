@@ -1,21 +1,11 @@
-import * as React from 'react';
-import CircularProgress from '@mui/material/CircularProgress';
-import Box from '@mui/material/Box';
-
+import GitHubCalendar from 'react-github-calendar';
+import "./style/Stat.scss"
 
 const Stat=()=>{
     return(
-        <div>
-       
-
- 
-    <Box md={{ display: 'flex' }}>
-    <CircularProgress variant="determinate" value={75}  />
-    </Box>
-
-
-
-        </div>
+        <div className='calender'>
+            <GitHubCalendar username="Ayushi0516"  />
+       </div>
 
     )
 }
