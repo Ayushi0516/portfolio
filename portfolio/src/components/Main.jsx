@@ -53,7 +53,7 @@ const Main = () => {
 
                     <div className="buttons">
                         <a href="https://github.com/Ayushi0516"><button>See My Work</button></a>
-                        <a href="Ayushi_resume.pdf" download="Ayushi_resume.pdf"><button>Resume</button></a>
+                        <a href="Ayushi_Gupta_Resume.pdf" download="Ayushi_Gupta_Resume.pdf"><button>Resume</button></a>
                     </div>
 
                     </div>
