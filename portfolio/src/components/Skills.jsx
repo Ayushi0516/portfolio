@@ -24,7 +24,7 @@ return(
           > 
         {skill.map((item)=>(
             <div className="box2">
-                <img src={item.src} width="100px" alt="logo"/>
+                <img src={item.src} width="80px" alt="logo"/>
                 <h3 className="label">{item.label}</h3>
                 </div>
 
@@ -45,7 +45,7 @@ return(
           >
         {tool.map((item)=>(
             <div className="box2">
-                <img src={item.src} width="100px" alt="logo"/>
+                <img src={item.src} width="80px" alt="logo"/>
                 <h3 className="label">{item.label}</h3>
                 </div>
 
