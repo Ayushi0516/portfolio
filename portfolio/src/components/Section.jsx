@@ -18,12 +18,12 @@ const Section = () => {
 
                 <div className="section__content">
                     <h1>Who is Ayushi</h1>
-                    <p>Full-stack developer who have a passion for creating clean and intuitive designs.</p>
-                    <p>I am a self-motivated and self-driven individual who is always looking for new challenges and opportunities.</p>
+                    <p>Full-stack developer specialized in Mern stack, who has a passion for creating clean and intuitive designs.</p>
+                    <p>I am a self-motivated and self-driven individual who  always looks for new challenges and opportunities.</p>
                     <p>My goal is to cooperate with the creation of tools that can contribute to the development of a person or a company</p>
-                    <p>Teamwork quality helps me to connect with people and lead a team whenever required</p>
+                    <p>I possess strong interpersonal and collaborative skills</p>
                     <p>open to remote work and online collaboration</p>
-                    <p>After a  months of rigorous training here I am looking for an opportunity as a full-stack developer</p>
+                    <p>After months of rigorous training here I am looking for an opportunity as a full-stack developer</p>
                 </div>
 
 

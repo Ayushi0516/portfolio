@@ -2,13 +2,15 @@
     width: 100%;
     display: flex;
     align-items: center;
-    // position: fixed;
-    // background-color:blue;
-    background: linear-gradient(45deg,rgba(216, 46, 8, 0.085),rgba(62, 7, 189, 0.126));
-    // filter:alpha(opacity=70);
-    // opacity:1;
-    position :absolute;
-    z-index: 1;
+    top:0;
+     position: fixed !important;
+//    background: linear-gradient(45deg,rgba(216, 46, 8, 0.085),rgba(62, 7, 189, 0.126));
+    background-color: black;
+    color: white;
+  opacity: 1.0;
+  z-index: 1000 !important;
+    // z-index: 1;
+   
 }
 
 
@@ -29,11 +31,14 @@ ul {
        .black {
            text-decoration: none;
            text-transform: uppercase;
-           color: #000;
+        //    color: #000;
+           color: #ffffff;
            font-weight: bolder;
 
            &:hover {
-               border-bottom: 3px solid black;
+            //    border-bottom: 3px solid black;
+               border-bottom: 3px solid white;
+
            }
        }
    }

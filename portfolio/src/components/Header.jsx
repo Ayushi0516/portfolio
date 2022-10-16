@@ -31,7 +31,9 @@ const Header = () => {
                         <p> <CloseIcon className="close" onClick={showMenu}/></p>
                     </div>
                     <li>
-                        <Link className="black" to='/'>Home</Link>
+                      
+                        <a className="black"  href="#">Home</a> 
+
                     </li>
                     <li >
                      
