@@ -47,14 +47,14 @@ const Header = () => {
                        
                         <a className="black" href="#project">Project</a>
                     </li>
-                   {/* <li>
-                 
-                   <a  className="black" href="#test">Testimonial</a>
-                   </li> */}
+                  
                     <li>
                         
                         <a className="black" href="#contact">Contacts</a>
                     </li>
+                    <li>
+                         <a  className="black" href="Ayushi_Gupta_Resume.pdf" download="Ayushi_Gupta_Resume.pdf">Resume</a>
+                 </li>
                 </ul>
             </nav>
 

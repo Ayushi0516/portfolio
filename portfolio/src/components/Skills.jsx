@@ -10,7 +10,7 @@ const Skills=()=>{
 return(
     <div className="box1" id="skill">
     <h2 className="kill">SKILLS</h2>
-    <h3>FrontEnd/Backend</h3>
+    {/* <h3>FrontEnd/Backend</h3> */}
     <div className="box3" >
       
          <Marquee 
@@ -32,7 +32,7 @@ return(
         </Marquee>
         </div>
  {/* <div className=""> */}
-    <h3 className="tools">Tool/CSS Library</h3>
+    {/* <h3 className="tools">Tool/CSS Library</h3> */}
     <div className="box3">
         <Marquee 
          gradient={false} 

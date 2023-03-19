@@ -25,7 +25,7 @@ const Main = () => {
                 steps={[
                     "Passionate Dev",
                     1000 ,
-                    "Full-Stack developer",
+                    "Full Stack Web Developer",
                     1000,
                     "MERN Stack Dev",
                     1000,

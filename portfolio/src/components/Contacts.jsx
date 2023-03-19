@@ -45,7 +45,7 @@ const Contact = () => {
          <div className='location'>
             <p><FaPhoneSquareAlt size={"30px"} className="loc" />8707049776</p>
             <p><SiGmail size={"30px"} className="loc" /> ayushigupta0516@gmail.com</p>
-           <p> <MdLocationPin size={"30px"} className="loc" />Jhansi,India</p>
+           <p> <MdLocationPin size={"30px"} className="loc" />Jhansi,Uttar Pradesh</p>
         </div>
 
         <div className='heart'>Made with <FaHeart color={"red"}/> by Ayushi</div>
