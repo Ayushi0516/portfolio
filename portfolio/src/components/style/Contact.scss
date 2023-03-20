@@ -7,14 +7,15 @@
 .contact {
     width: 100%;
     height: 100vh;
-    background: rgb(248, 235, 235);
+    // background: rgb(248, 235, 235);
+    background:linear-gradient(45deg,rgba(101, 11, 228, 0.77),rgba(244, 67, 2, 0.562));
 }
 
 
-a {
-    color: rgb(82, 76, 76);
-    text-decoration: none;
-}
+// a {
+//     color: rgb(82, 76, 76);
+//     text-decoration: none;
+// }
 
 
 .inputs {
@@ -27,7 +28,9 @@ a {
     justify-content: center;
 }
     .inputs  h1 {
-        color: rgb(82, 76, 76);
+        // color: rgb(82, 76, 76);
+        color: white;
+        font-family: system-ui;
         margin-top: 20px;
     }
 
@@ -45,15 +48,30 @@ a {
     }
 
     .inputs button {
-            padding: 10px 40px;
-            background: none;
-            cursor: pointer;
-            margin-top: 1rem;
-            text-align: center;
-            border: 1px solid pink;
-            color: rgb(255, 155, 172);
-            text-transform: uppercase;
-            margin-left: 430px;
+            // padding: 10px 40px;
+            // background: none;
+            // cursor: pointer;
+            // margin-top: 1rem;
+            // text-align: center;
+            // border: 1px solid pink;
+            // color: rgb(255, 155, 172);
+            // text-transform: uppercase;
+            // margin-left: 430px;
+            padding: 15px 40px;
+        margin-top: 1.5rem;
+        // margin-left: 50px;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+        background: linear-gradient(25deg,rgba(1, 60, 210, 0.753),rgb(255, 72, 6));
+        color: #fff;
+        border: 1px solid #fff;
+        cursor: pointer;
+        
+        text-transform: uppercase;
+        font-weight: bolder;
+        border-bottom: none;
+        display: block;
+        margin: auto;
         }
 
     
@@ -66,20 +84,50 @@ a {
     cursor: pointer;
 }
 .location .loc{
-    color: blueviolet;
+    color:brown;
 }
-.location .loc:hover{
-    transform: scale(1.15);
-    color: peru;
-}
+
 .heart{
     margin: 30px;
     text-align: center;
+    font-family: cursive;
+}
+.mail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+.number{
+    font-family: cursive;
+    font-size: 16px;
+    text-align: center;
+   
+}
+.number:hover{
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+@media (max-width:600px){
+    .inputs  h1{
+        font-size: 18px;
+    }
+    .location{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        margin-top:-20px ;
+    }
+.number{
+    font-size: 12px;
+}
+.heart{
+    font-size: 12px;
+}
 }
 
-
-
 @media (max-width:480px) {
+
     .inputs {
         width: 60%;
 

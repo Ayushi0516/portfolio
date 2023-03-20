@@ -1,10 +1,13 @@
 .calender{
-    background: linear-gradient(45deg,rgba(216, 46, 8, 0.085),rgba(62, 7, 189, 0.126));;
-    height: auto;
+    // background: linear-gradient(45deg,rgba(216, 46, 8, 0.085),rgba(62, 7, 189, 0.126));;
+    // height: auto;
+    background: rgb(248, 235, 235);
     width: 100%;
     padding-top: 60px;
-    padding-left: 290px;
+    padding-left: 300px;
     text-align: center;
+    // display: block;
+    // margin: auto;
 }
 @media (max-width:850px){
     .calender{

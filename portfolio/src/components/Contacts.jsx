@@ -30,7 +30,7 @@ const Contact = () => {
         <div className='contact' id="contact">
            
             <div className="inputs">
-                <h1 >Contact me</h1>
+                <h1  >Contact me</h1>
                 <div>
                  <form onSubmit={handleSubmit}>
                     <div>
@@ -43,9 +43,19 @@ const Contact = () => {
                 </div>
             </div>
          <div className='location'>
-            <p><FaPhoneSquareAlt size={"30px"} className="loc" />8707049776</p>
-            <p><SiGmail size={"30px"} className="loc" /> ayushigupta0516@gmail.com</p>
-           <p> <MdLocationPin size={"30px"} className="loc" />Jhansi,Uttar Pradesh</p>
+          <div className='mail'>
+          <FaPhoneSquareAlt size={"30px"} className="loc" />
+          <p className='number'>8707049776</p>
+          </div>
+          <div className='mail'>
+          <SiGmail size={"30px"} className="loc" /> 
+          <p className='number'>ayushigupta0516@gmail.com</p>
+          </div>
+          <div className='mail'>
+          <MdLocationPin size={"30px"} className="loc" />
+          <p className='number'>Jhansi,Uttar Pradesh</p>
+          </div>
+          
         </div>
 
         <div className='heart'>Made with <FaHeart color={"red"}/> by Ayushi</div>

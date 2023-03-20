@@ -42,6 +42,45 @@ const Project = () => {
             <button>Live Link</button>
           </a>
         </div>
+        <div className="project_details">
+          <img src={foodmartcover} alt="" />
+          <h4>Food-Mart</h4>
+          <p className="project_description">
+            Food-Mart is an e-commerce food web application that allows you to
+            food online. It has a variety of categories, just visit the food
+            listing page and you will see all
+            the food available, apply sorting as per your need and in just a few
+            clicks you can order food from the website.
+          </p>
+          <p className="tech_stack">Tech Stack</p>
+          <p className="icon">
+            <FaHtml5 size="33px" color="brown" />{" "}
+            <SiCss3 color="brown" size="30px" />{" "}
+            <SiJavascript color="brown" size="30px" />{" "}
+            <BsBootstrapFill color="brown" size="32px"  />{" "}
+            <SiNetlify color="brown" size="30px" />
+          </p>
+          <a href="https://github.com/Ayushi0516/Food-Mart" target="_blank">
+            <button>Github</button>
+          </a>
+          <a href="https://foodmart-site.netlify.app/" target="_blank">
+            <button>Live Link</button>
+          </a>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         <div className="project_details">
           <img src={pluralsightcover} alt="" />
@@ -95,31 +134,7 @@ const Project = () => {
           </a>
         </div>
 
-        <div className="project_details">
-          <img src={foodmartcover} alt="" />
-          <h4>Food-Mart</h4>
-          <p className="project_description">
-            Food-Mart is an e-commerce food web application that allows you to
-            food online. It has a variety of categories, just visit the food
-            listing page, trending food page or search page and you will see all
-            the food available, apply sorting as per your need and in just a few
-            clicks you can order food from the website.
-          </p>
-          <p className="tech_stack">Tech Stack</p>
-          <p className="icon">
-            <FaHtml5 size="33px" color="brown" />{" "}
-            <SiCss3 color="brown" size="30px" />{" "}
-            <SiJavascript color="brown" size="30px" />{" "}
-            <BsBootstrapFill color="brown" size="32px"  />{" "}
-            <SiNetlify color="brown" size="30px" />
-          </p>
-          <a href="https://github.com/Ayushi0516/Food-Mart" target="_blank">
-            <button>Github</button>
-          </a>
-          <a href="https://foodmart-site.netlify.app/" target="_blank">
-            <button>Live Link</button>
-          </a>
-        </div>
+       
       </div>
 
       {/* closing div */}

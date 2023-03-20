@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Space Grotesk');
+
 
 
 .project{
@@ -14,13 +14,14 @@
         font-size: 40px;
         color:white; 
         padding-top: 30px;
+        font-family: system-ui;
         
     }
     
     Button{
         padding: 15px 40px;
         margin-top: 1rem;
-        margin-left: 10px;
+        margin-left: 50px;
         margin-right: 1rem;
         margin-bottom: 1rem;
         background: linear-gradient(25deg,rgba(1, 60, 210, 0.753),rgb(255, 72, 6));
@@ -31,6 +32,7 @@
         text-transform: uppercase;
         font-weight: bolder;
         border-bottom: none;
+       
     }
     .project_box{
     
@@ -44,27 +46,41 @@
 .project_details{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     background-color: lightgrey;
-    // background-color: white;
-    border-radius: 10px;
+     border-radius: 10px;
    cursor: grab;
     h4{
       text-align: center; 
       padding-top: 7px; 
       font-size: 20px;
       color: #1a202c;
+      font-family: system-ui;
+      font-weight: bolder;
+    }
+    h4:hover{
+        text-decoration: underline;
     }
     .project_description{
-          padding: 10px 10px 10px 10px;
+          padding: 10px 20px 10px 20px;
           text-align: justify;
-          font-family: cursive;
-          color:#4a5568;
+          font-family: system-ui;
+          letter-spacing: 0.5px;
+         
+      
     }
     .tech_stack{
-        padding-left: 10px;
+       
+        color: #1a202c;
+        font-family: cursive;
+        text-align: center;
+        font-size: 18px;
+    }
+    .tech_stack:hover{
         text-decoration: underline;
     }
     .icon{
-        padding: 10px 5px 0px 10px;
+        padding: 10px 0px;
+        text-align: center;
+        color: brown;
     }
 }
 div>img{
@@ -94,17 +110,61 @@ div>img:hover{
     grid-template-rows: auto;
     gap: 20px;
  }
+ .project_details{
+    h4{
+        font-size:15px ;
+    }
+    .project_description{
+        font-size: 13px;
+    }
+    .tech_stack{
+        font-size: 15px;
+    }
  }
+ Button{
+    padding: 5px 15px;
+    font-size: 10px;
+    margin-right: 0.2rem;
+    margin-bottom: 0.5rem;
+ }
+ }
+ 
  }
 
 
 @media (max-width:360px)
 {
+    .project{
+        .project_heading{
+            font-size: 18px;
+           
+        }
+    .project_box{
     
-    .project-box{
-    display: flex;
-    flex-direction: column;
-    flex: 100%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+ }
+ .project_details{
+    h4{
+        font-size:15px ;
+    }
+    .project_description{
+        font-size: 13px;
+    }
+    .tech_stack{
+        font-size: 15px;
+    }
+ }
+ Button{
+    padding: 10px 20px;
+    font-size: 10px;
+    margin-right: 0.2rem;
+    margin-bottom: 0.5rem;
+ }
+ }
+   
 }
 
-}
+
