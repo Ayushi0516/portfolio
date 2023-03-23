@@ -8,12 +8,13 @@ import {
   SiChakraui,
   SiNetlify,
 } from "react-icons/si";
-import {BsBootstrapFill} from "react-icons/bs"
+import { BsBootstrapFill } from "react-icons/bs";
 import { AiFillHtml5 } from "react-icons/ai";
 import himalayacover from "./assests/himalayacover.png";
 import pluralsightcover from "./assests/pluralsightcover.png";
 import orbitzcover from "./assests/orbitzcover.png";
 import foodmartcover from "./assests/foodmartcover.png";
+import todocover from "./assests/todocover.png";
 const Project = () => {
   return (
     <div className="project">
@@ -48,16 +49,16 @@ const Project = () => {
           <p className="project_description">
             Food-Mart is an e-commerce food web application that allows you to
             food online. It has a variety of categories, just visit the food
-            listing page and you will see all
-            the food available, apply sorting as per your need and in just a few
-            clicks you can order food from the website.
+            listing page and you will see all the food available, apply sorting
+            as per your need and in just a few clicks you can order food from
+            the website.
           </p>
           <p className="tech_stack">Tech Stack</p>
           <p className="icon">
             <FaHtml5 size="33px" color="brown" />{" "}
             <SiCss3 color="brown" size="30px" />{" "}
             <SiJavascript color="brown" size="30px" />{" "}
-            <BsBootstrapFill color="brown" size="32px"  />{" "}
+            <BsBootstrapFill color="brown" size="32px" />{" "}
             <SiNetlify color="brown" size="30px" />
           </p>
           <a href="https://github.com/Ayushi0516/Food-Mart" target="_blank">
@@ -67,20 +68,6 @@ const Project = () => {
             <button>Live Link</button>
           </a>
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         <div className="project_details">
           <img src={pluralsightcover} alt="" />
@@ -134,7 +121,33 @@ const Project = () => {
           </a>
         </div>
 
-       
+        <div className="project_details">
+          <img src={todocover} alt="" />
+          <h4>Todo App</h4>
+          <p className="project_description">
+            Create to do lists, reminders, and notes for any purpose. Todo App
+            with React, which teaches the basic principles of CRUD (Create,
+            Read, Update and Delete)
+          </p>
+          <p className="tech_stack">Tech Stack</p>
+          <p className="icon">
+            <FaHtml5 size="33px" color="brown" />{" "}
+            <SiCss3 color="brown" size="30px" />{" "}
+            <SiJavascript color="brown" size="30px" />{" "}
+            <FaReact color="brown" size="30px" />{" "}
+            <BsBootstrapFill color="brown" size="32px" />{" "}
+            <SiNetlify color="brown" size="30px" />
+          </p>
+          <a
+            href="https://github.com/Ayushi0516/React-Todo-app"
+            target="_blank"
+          >
+            <button>Github</button>
+          </a>
+          <a href="https://react-todoapp-app.netlify.app/" target="_blank">
+            <button>Live Link</button>
+          </a>
+        </div>
       </div>
 
       {/* closing div */}
