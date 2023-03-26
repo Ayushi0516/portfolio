@@ -15,6 +15,7 @@ import pluralsightcover from "./assests/pluralsightcover.png";
 import orbitzcover from "./assests/orbitzcover.png";
 import foodmartcover from "./assests/foodmartcover.png";
 import todocover from "./assests/todocover.png";
+import weathercover from "./assests/weathercover.png";
 const Project = () => {
   return (
     <div className="project">
@@ -98,25 +99,29 @@ const Project = () => {
           </a>
         </div>
 
+
         <div className="project_details">
-          <img src={orbitzcover} alt="" />
-          <h4>Orbitz</h4>
+          <img src={weathercover} alt="" />
+          <h4>weather App</h4>
           <p className="project_description">
-            Orbitz.com is a travel fare aggregator website and travel metasearch
-            engine. The website is owned by Orbitz Worldwide, Inc., a subsidiary
-            of Expedia Group. All Fares in One Place.
+            This project is about building a web application to show a weather
+            forecast using weather API from external services Open weather map.
+            Here you will be able to search for a specific location in the world
+            and  will display all
+            the important weather details.
           </p>
           <p className="tech_stack">Tech Stack</p>
           <p className="icon">
             <FaHtml5 size="33px" color="brown" />{" "}
-            <SiCss3 color="brown" size="30px" />{" "}
             <SiJavascript color="brown" size="30px" />{" "}
-            <SiNetlify color="brown" size="30px" />
+            <FaReact color="brown" size="30px" />{" "}
+            <SiRedux color="brown" size="30px" />{" "}
+            <SiChakraui color="brown" size="30px" />
           </p>
-          <a href="https://github.com/jitesh-95/Orbitz" target="_blank">
+          <a href="https://github.com/Ayushi0516/Weather-App" target="_blank">
             <button>Github</button>
           </a>
-          <a href="http://our-orbitz-clone.netlify.app" target="_blank">
+          <a href="https://sparkly-cactus-3cd1a2.netlify.app/" target="_blank">
             <button>Live Link</button>
           </a>
         </div>
@@ -148,6 +153,33 @@ const Project = () => {
             <button>Live Link</button>
           </a>
         </div>
+
+        <div className="project_details">
+          <img src={orbitzcover} alt="" />
+          <h4>Orbitz</h4>
+          <p className="project_description">
+            Orbitz.com is a travel fare aggregator website and travel metasearch
+            engine. The website is owned by Orbitz Worldwide, Inc., a subsidiary
+            of Expedia Group. All Fares in One Place.
+          </p>
+          <p className="tech_stack">Tech Stack</p>
+          <p className="icon">
+            <FaHtml5 size="33px" color="brown" />{" "}
+            <SiCss3 color="brown" size="30px" />{" "}
+            <SiJavascript color="brown" size="30px" />{" "}
+            <SiNetlify color="brown" size="30px" />
+          </p>
+          <a href="https://github.com/jitesh-95/Orbitz" target="_blank">
+            <button>Github</button>
+          </a>
+          <a href="http://our-orbitz-clone.netlify.app" target="_blank">
+            <button>Live Link</button>
+          </a>
+        </div>
+
+       
+
+        
       </div>
 
       {/* closing div */}
