@@ -5,6 +5,7 @@ import React from 'react'
  import "./style/Main.scss"
 
  import slackdp from './assests/slackdp.jpeg'
+ import resume_photo from "./assests/resume_photo.jpg"
  import Typical from "react-typical";
 
 const Main = () => {
@@ -35,16 +36,16 @@ const Main = () => {
                        
                           
                              <div className="icons">
-                        <a className="red" href="https://www.facebook.com/arushi.gupta.334491">
+                        <a className="red" href="https://www.facebook.com/arushi.gupta.334491" target="_blank">
                     <i className="icon"><FaFacebookSquare size={"40px"} /></i>
                    </a>
-                   <a href="https://www.instagram.com/_arushi_gupta">
+                   <a href="https://www.instagram.com/_arushi_gupta" target="_blank">
                     <i className="icon"><FaInstagramSquare size={"40px"} /></i>
                    </a>
-                   <a href="https://github.com/Ayushi0516">
+                   <a href="https://github.com/Ayushi0516" target="_blank">
                     <i className="icon"><FaGithub size={"40px"} /></i>
                    </a>
-                   <a href="https://www.linkedin.com/in/ayushi-gupta-b98676236">
+                   <a href="https://www.linkedin.com/in/ayushi-gupta-b98676236" target="_blank">
                     <i className="icon"><FaLinkedin size={"40px"} /></i>
                    </a>
 
@@ -52,7 +53,7 @@ const Main = () => {
 
 
                     <div className="buttons">
-                        <a href="https://github.com/Ayushi0516"><button>See My Work</button></a>
+                        <a href="https://github.com/Ayushi0516"  target="_blank"><button>See My Work</button></a>
                         <a href="Ayushi_Gupta_Resume.pdf" download="Ayushi_Gupta_Resume.pdf"><button>Resume</button></a>
                     </div>
 
@@ -64,6 +65,7 @@ const Main = () => {
 
                 <div className="main__img">
                     <img src={slackdp} width="400px" alt="" />
+                       {/* <img src={resume_photo} width="400px" alt=""/> */}
                 </div>
 
 

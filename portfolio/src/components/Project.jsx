@@ -18,7 +18,7 @@ import todocover from "./assests/todocover.png";
 import weathercover from "./assests/weathercover.png";
 const Project = () => {
   return (
-    <div className="project">
+    <div className="project" id="projects">
       <p className="project_heading">PROJECTS</p>
       <div className="project_box">
         <div className="project_details">
